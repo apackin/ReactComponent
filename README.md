@@ -1,20 +1,25 @@
-# Project CAMO
+# ReduxSimpleStarter
 
-Project CAMO aims to recreate the the spreadsheet with today's media rich world in mind. 
+Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
-## Summary
+###Getting Started###
 
-Now you can organize of your information, including videos, images, lists, checkbox, map locations, and more, in one simple place. CAMO also allows users to collaborate in real time on projects and quickly scroll through any revisions that they have. 
+There are two methods for getting started with this repo.
 
-## Features
+####Familiar with Git?#####
+Checkout this repo, install depdencies, then start the gulp process with the following:
 
-	Interacts with over a dozen data types
-	Handles over a million input cells
-	Quickly viewable revision history
-	Collaborate with unlimited team members
+```
+	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
+	> cd ReduxSimpleStarter
+	> npm install
+	> npm start
+```
 
-## Technologies
+####Not Familiar with Git?#####
+Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
-CAMO leverages ReactJS to quickly render all of your information, and the functionality of Redux to give users complete access to their data's history. 
-
-The backend is supported by NodeJs, ExpressJS, and MongoDB. 
+```
+	> npm install
+	> npm start
+```
